@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>L&L Capital Group — Business Financing Solutions</title>
+  <meta name="theme-color" content="#0b1430" />
+  <meta name="description" content="L&L Capital Group helps businesses explore financing options across multiple product lanes with a simple intake." />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+<header class="topbar" id="top">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="L&L Capital Group home">
+      <img class="logoimg" src="./assets/ll-logo.png" alt="L&L Capital Group logo" />
+      <div class="brandtext">
+        <span class="brandname">L&L Capital Group</span>
+        <span class="brandtag">Business Financing Solutions</span>
+      </div>
+    </a>
+    <nav class="navlinks" aria-label="Primary">
+      <a href="products.html">Products</a>
+      <a href="documents.html">Documents</a>
+      <a href="index.html#eligibility">Apply</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="navcta">
+      <a class="btn ghost" href="index.html#eligibility">Apply</a>
+      <a class="btn primary" href="index.html#eligibility">Start Intake</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="rgba(255,255,255,.9)" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheetpanel">
+    <a href="products.html" class="sheetLink">Products</a>
+    <a href="documents.html" class="sheetLink">Documents</a>
+    <a href="index.html#eligibility" class="sheetLink strong">Start Intake</a>
+    <a href="index.html#contact" class="sheetLink">Contact</a>
+  </div>
+</div>
+
+<main class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="pill"><span class="dot" aria-hidden="true"></span> Fast options • Multiple products • Simple intake</span>
+      <h1>Funding options built for <span class="grad">growing businesses</span>.</h1>
+      <p>We help business owners explore financing options by matching their profile with lending partners across a wide network.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="index.html#eligibility">Start Intake</a>
+        <a class="btn" href="products.html">Explore Products</a>
+        <a class="btn ghost" href="documents.html">Required Docs</a>
+      </div>
+      <div class="kpi" style="margin-top:14px">
+        <span class="chip">📞 <a href="tel:267-223-5169">267-223-5169</a></span>
+        <span class="chip">✉️ <a href="mailto:info@llcapitalgroup.com">info@llcapitalgroup.com</a></span>
+      </div>
+      <hr />
+      <div class="muted small">Final approvals and terms are set by the lender during underwriting.</div>
+    </div>
+
+    <div class="glass">
+      <div class="pad">
+        <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:10px">
+          <div>
+            <div style="font-weight:950">Quick Eligibility</div>
+            <div class="muted small">Basic info only — we’ll tell you next steps.</div>
+          </div>
+          <span class="badge">Fast Intake</span>
+        </div>
+        <div id="eligibility"></div>
+<form class="form" id="quickForm">
+          <div class="grid2">
+            <div class="field"><label for="qName">Name</label><input id="qName" required placeholder="Your name" autocomplete="name"/></div>
+            <div class="field"><label for="qBiz">Business name</label><input id="qBiz" required placeholder="Business name"/></div>
+          </div>
+          <div class="grid2">
+            <div class="field"><label for="qAmt">Requested amount</label><input id="qAmt" required inputmode="numeric" placeholder="e.g. 50,000"/></div>
+            <div class="field"><label for="qPurpose">Purpose</label>
+              <select id="qPurpose" required>
+                <option value="" selected disabled>Select</option>
+                <option>Working capital</option><option>Inventory</option><option>Equipment</option><option>Expansion</option><option>Debt refinance</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid2">
+            <div class="field"><label for="qRevenue">Monthly revenue</label><input id="qRevenue" required inputmode="numeric" placeholder="e.g. 25,000"/></div>
+            <div class="field"><label for="qPhone">Phone</label><input id="qPhone" required inputmode="tel" placeholder="(555) 555-5555"/></div>
+          </div>
+          <button class="btn primary" type="submit">Get Next Steps</button>
+          <div class="fine">Demo submission opens your email app. Swap to CRM/backend when ready.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><h2>Financing products</h2><div class="sub">LOC, term, SBA, equipment, and working capital lanes.</div></div>
+      <a class="btn primary" href="products.html">View Products</a>
+    </div>
+    <div class="grid12">
+      <div class="panel"><div class="icon">💳</div><h3>Lines of Credit</h3><p>Draw as needed — pay for what you use.</p></div>
+      <div class="panel"><div class="icon">📈</div><h3>Term Loans</h3><p>Fixed payments and clear payoff timeline.</p></div>
+      <div class="panel"><div class="icon">🛠️</div><h3>Equipment</h3><p>Finance equipment aligned to asset life.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <div><h2>Contact</h2><div class="sub">Call or email — or send a message below.</div></div>
+      <a class="btn primary" href="index.html#eligibility">Start Intake</a>
+    </div>
+    <div class="contact-grid">
+      <div class="panel wide">
+        <div class="icon">☎️</div>
+        <h3>Reach us</h3>
+        <p class="contactline"><b>Phone:</b> <a href="tel:267-223-5169">267-223-5169</a></p>
+        <p class="contactline"><b>Email:</b> <a href="mailto:info@llcapitalgroup.com">info@llcapitalgroup.com</a></p>
+        <p class="muted small">Faster docs = faster options. See Documents for a checklist.</p>
+      </div>
+      <div class="panel wide">
+        <div class="icon">✉️</div>
+        <h3>Send a message</h3>
+        <form class="form" id="contactForm">
+          <div class="grid2">
+            <div class="field"><label for="cName">Name</label><input id="cName" required placeholder="Your name"/></div>
+            <div class="field"><label for="cEmail">Email</label><input id="cEmail" required type="email" placeholder="you@email.com"/></div>
+          </div>
+          <div class="field"><label for="cMsg">Message</label><textarea id="cMsg" rows="4" required placeholder="Amount, purpose, timeline, and any context."></textarea></div>
+          <button class="btn primary" type="submit">Send</button>
+          <div class="fine">Demo mode uses mailto. Connect to a form endpoint anytime.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <div class="muted small">© 2026 L&L Capital Group. All rights reserved.</div>
+    <div class="foot-right"><a href="#top">Top</a><a href="products.html">Products</a><a href="documents.html">Documents</a><a href="index.html#eligibility">Apply</a></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"><b id="toastTitle">Sent</b><span id="toastMsg">We received your message.</span></div>
+
+<script type="module" src="./assets/firebase.js"></script>
+<script src="./assets/app.js"></script>
+</body>
+</html>
